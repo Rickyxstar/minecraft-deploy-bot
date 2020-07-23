@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "sourceMap": true,
+        "strictNullChecks": true,
+        "target": "es6",
+        "allowJs": true,
+        "module": "commonjs",
+    },
+    "include": [
+        "./index.ts"
+    ]
+}
