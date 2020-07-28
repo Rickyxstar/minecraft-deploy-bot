@@ -35,6 +35,10 @@ client.on("message", (message) => {
                 case "destroy":
                     destroy(messageParser)
                     break;
+
+                case "info":
+                    info(messageParser)
+                    break;
             
                 default:
                     help(messageParser)
@@ -122,5 +126,9 @@ const destroy = async (message: MessageParser) => {
 }
 
 const help = async (message: MessageParser) => {
-    message.message.reply("**Crit Cola Minecraft server!** \n\nAvailable commands:\n!mc status \n!mc deploy \n!mc destory")
+    message.message.reply("**Crit Cola Minecraft server!** \n\nAvailable commands:\n!mc status \n!mc info \n!mc deploy \n!mc destory")
+}
+
+const info = async (message: MessageParser) => {
+    message.message.reply("**Mod pack:** FTB Presents Stoneblock 2 \n**Version:** 1.16.0 \n**MC Version:** 1.12.2 \n**Server:** minecraft.critcola.com")
 }
