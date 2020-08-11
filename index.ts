@@ -126,7 +126,7 @@ const destroy = async (message: MessageParser) => {
 }
 
 const help = async (message: MessageParser) => {
-    message.message.reply("**Crit Cola Minecraft server!** \n\nAvailable commands:\n!mc status \n!mc info \n!mc deploy \n!mc destory")
+    message.message.reply("**Crit Cola Minecraft server!** \n\nAvailable commands:\n!mc status \n!mc info \n!mc deploy \n!mc destroy")
 }
 
 const info = async (message: MessageParser) => {
