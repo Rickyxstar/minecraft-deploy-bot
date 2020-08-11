@@ -130,5 +130,5 @@ const help = async (message: MessageParser) => {
 }
 
 const info = async (message: MessageParser) => {
-    message.message.reply("\n**Mod pack:** Sky Factory 4 \n**Version:** 4.2.2 \n**MC Version:** 1.12.2 \n**Server:** minecraft.critcola.com")
+    message.message.reply("\n**Mod pack:** MC Eternal \n**Version:** 1.3.7.1 \n**MC Version:** 1.12.2 \n**Server:** minecraft.critcola.com")
 }
